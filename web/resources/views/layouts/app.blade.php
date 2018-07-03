@@ -42,8 +42,6 @@
                         <li><a href="{{ route('explore') }}">{{ trans('view.nav.explore') }}</a></li>
                     </ul>
 
-
-
                     <!-- Right Side Of Navbar -->
                     <ul class="nav navbar-nav navbar-right">
                         <!-- Search box -->
