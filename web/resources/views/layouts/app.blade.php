@@ -40,6 +40,7 @@
                     <!-- Left Side Of Navbar -->
                     <ul class="nav navbar-nav">
                         <li><a href="{{ route('explore') }}">{{ trans('view.nav.explore') }}</a></li>
+                        <li><a href="{{ route('writing') }}">{{ trans('view.nav.writing') }}</a></li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->
@@ -95,7 +96,7 @@
                     </div>
                     <div class="col-md-4">
                         <ul class="nav nav-pills navbar-right">
-                            <li class="dropdown">
+                            <li class="dropdown dropup">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true" v-pre>
                                     {{ Config::get('app.locales')[App::getLocale()] }} <span class="caret"></span>
                                 </a>

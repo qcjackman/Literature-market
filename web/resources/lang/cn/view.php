@@ -8,6 +8,7 @@ return [
 
     'nav' => [
         'explore' => '探索',
+        'writing' => '写作',
         'search' => '搜索'
     ],
 

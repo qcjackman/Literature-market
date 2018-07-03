@@ -8,6 +8,7 @@ return [
 
     'nav' => [
         'explore' => 'Explore',
+        'writing' => 'Writing',
         'search' => 'Search'
     ],
 
