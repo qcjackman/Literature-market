@@ -42,16 +42,17 @@
                         <li><a href="{{ route('explore') }}">{{ trans('view.nav.explore') }}</a></li>
                     </ul>
 
-                    <!-- Search box -->
-                    <form class="navbar-form navbar-left">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="AI BIGDATA">
-                        </div>
-                        <button type="submit" class="btn btn-default">{{ trans('view.nav.search') }}</button>
-                    </form>
+
 
                     <!-- Right Side Of Navbar -->
                     <ul class="nav navbar-nav navbar-right">
+                        <!-- Search box -->
+                        <form class="navbar-form navbar-left">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="AI BIGDATA">
+                            </div>
+                            <button type="submit" class="btn btn-default">{{ trans('view.nav.search') }}</button>
+                        </form>
                         <!-- Authentication Links -->
                         @guest
                             <li><a href="{{ route('login') }}">{{ trans('view.login') }}</a></li>
