@@ -19,8 +19,10 @@ Route::get('/', function () {
 
 Auth::routes();
 
+Route::get('setLocale/{locale}', ['as' => 'language.change', 'uses' => 'LanguageController@setLocale']);
+
 Route::get('/', 'HomeController@index')->name('home');
 
-Route::get('/explore', 'ExploreController@index')->name('explore');
+Route::get('explore', 'ExploreController@index')->name('explore');
 
-Route::get('/help', 'HelpController@index')->name('help');
+Route::get('help', 'HelpController@index')->name('help');

@@ -3,7 +3,7 @@
 @section('content')
 <div class="container">
     <div class="row">
-        <div class="col-md-8 col-md-offset-2">
+        <div class="col-md-12">
             <div class="panel panel-default">
                 <div class="panel-heading">Dashboard</div>
 
@@ -14,7 +14,12 @@
                         </div>
                     @endif
 
-                    You are logged in!
+                    @include('editor::head')
+                    <!-- 若使用了 laravelcollective/html package -->
+                    <div class="editor">
+                        <!-- 若使用html标签 ，直接使用textarea -->
+                        <textarea id='myEditor'></textarea>
+                    </div>
                 </div>
             </div>
         </div>
