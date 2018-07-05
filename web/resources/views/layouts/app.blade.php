@@ -41,6 +41,7 @@
                     <ul class="nav navbar-nav">
                         <li><a href="{{ route('explore') }}">{{ trans('view.nav.explore') }}</a></li>
                         <li><a href="{{ route('writing') }}">{{ trans('view.nav.writing') }}</a></li>
+                        <li><a href="{{ route('community') }}">{{ trans('view.nav.community') }}</a></li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->

@@ -25,6 +25,10 @@ Route::get('/', 'HomeController@index')->name('home');
 
 Route::get('explore', 'ExploreController@index')->name('explore');
 
+Route::get('community', function() {
+    return view('home');
+})->name('community');
+
 Route::get('help', 'HelpController@index')->name('help');
 
 Route::middleware(['auth'])->group(function () {

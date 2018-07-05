@@ -9,6 +9,7 @@ return [
     'nav' => [
         'explore' => 'Explore',
         'writing' => 'Writing',
+        'community' => 'Community',
         'search' => 'Search'
     ],
 
